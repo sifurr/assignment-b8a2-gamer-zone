@@ -1,3 +1,123 @@
-h1{
-    background-color: cadetblue;
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* shared styles */
+
+/* header styles */
+.header-top-container {
+    display: flex;
+    justify-content: space-around;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.logo-text {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.logo-text .logo-first-letter {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-top-container .navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top-container .navbar ul li {
+    list-style: none;
+    margin: 32px;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header-top-container .navbar ul li a {
+    text-decoration: none;
+}
+
+.navbar ul {
+    margin-right: -40px;
+    display: flex;
+}
+
+.nav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 17px 24px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+
+
+
+/* responsive styles */
+/* mobile device */
+@media screen and (max-width: 576px) {
+    .header-top-container, 
+    .navbar ul    
+    {
+        flex-direction: column;       
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .header-top-container{
+        margin-top: 103px;
+        margin-bottom: 62px;
+    }
+
+ 
+
+    .logo-container .logo-text{
+        margin-right: 0px;
+    }
+
+    .header-top-container {
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.0);
+    }
+
+    .logo-container a {
+        
+        margin-right: 20px;
+        margin-bottom: 40px;
+    }  
+
 }
