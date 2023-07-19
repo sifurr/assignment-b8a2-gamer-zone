@@ -16,11 +16,6 @@ body {
 
 /* shared styles */
 
-.section-width{
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
 /* header styles */
 .header-top-container {
     display: flex;
@@ -101,10 +96,9 @@ body {
 
 }
 
-
 .header-banner-left-content {
     margin-top: 148px;
-    margin-left: 155px;
+    margin-left: 244px;
 }
 
 .header-banner-left-content h3 {
@@ -150,7 +144,7 @@ body {
     padding: 21px 40px;
     border: 0px;
     margin-top: 41px;
-    margin-bottom: 96px;
+    margin-bottom: 148px;
 }
 
 .pink-button {
@@ -167,7 +161,7 @@ body {
 }
 
 .header-banner-right img {
-    height: 590px;
+    height: 700px;
 }
 
 /* main styles */
@@ -178,8 +172,7 @@ body {
 }
 
 .gamers-left-side img {
-    height: 400px;
-    padding-left: 95px;
+    margin-left: 185px;
 }
 
 .gamers-right-side p {
@@ -188,7 +181,7 @@ body {
 }
 
 .gamers-right-side {
-    padding-right: 111px;
+    margin-right: 240px;
 }
 
 .gamers-right-side .gamers-right-title {
@@ -269,14 +262,12 @@ body {
 .online-games-cards {
     display: flex;
     justify-content: center;
-    /* gap: 24px; */
+    gap: 24px;
 }
 
-
-
 .online-games-card img {
-    /* width: 342px; */
-    height: 200px;
+    width: 342px;
+    height: 400px;
 }
 
 .online-games-card p {
@@ -292,16 +283,15 @@ body {
 /* instant play section */
 .instant-play-container {
     display: flex;
-    justify-content: space-around;
-    /* gap: 120px; */
-    /* margin-top: 120px; */
+    justify-content: space-between;
+    gap: 120px;
+    margin-top: 120px;
 }
 
 .instant-play-left {
-    /* margin-left: 253px; */
-    /* margin-top: 180px; */
+    margin-left: 441px;
+    margin-top: 229px;
 }
-
 
 .instant-play-left h3 {
     text-align: right;
@@ -326,20 +316,19 @@ body {
 }
 
 .instant-play-images {
-    margin-right: -89px;
+    margin-right: -80px;
 }
 
 .big-img {
     border-radius: 8px;
-    max-height: 560px;
+    max-height: 635px;
     background: lightgray -7.583px 0px / 102.389% 100% no-repeat;
 }
 
 .small-img {
     position: relative;
-    top: 61px;
-    right: 668px;
-    height: 288px;
+    top: 90px;
+    right: 768px;
 }
 
 /* game's type section */
