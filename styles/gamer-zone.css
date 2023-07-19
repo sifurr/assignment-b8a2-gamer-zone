@@ -135,12 +135,13 @@ body {
     text-transform: lowercase;
 }
 
-.header-banner-button{
+.header-banner-button {
     display: flex;
 }
 
-.pink-button, .blue-button {
-    border-radius: 48px;    
+.pink-button,
+.blue-button {
+    border-radius: 48px;
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
@@ -151,12 +152,12 @@ body {
     margin-bottom: 148px;
 }
 
-.pink-button{
+.pink-button {
     margin-right: 20px;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 }
 
-.blue-button {   
+.blue-button {
     background: #4EC5F7;
 }
 
@@ -167,6 +168,73 @@ body {
 .header-banner-right img {
     height: 700px;
 }
+
+/* main styles */
+/* we are gamers section */
+.we-are-gamers {
+    display: flex;
+    margin-top: 55px;
+    margin-left: 185px;
+}
+
+.gamers-right-side p {
+    text-align: right;
+    margin-bottom: 24px;
+}
+
+.gamers-right-side {
+    margin-right: 240px;
+}
+
+.gamers-right-side .gamers-right-title {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamers-right-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.gamers-btn {
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 21px 40px;
+    border: 0px;
+    text-align: right;
+}
+
+
+
+
+.purpose{
+    color: #534C64;
+font-size: 24px;
+font-weight: 500;
+line-height: 45px; 
+}
+
+.gamers-slogan{
+    color: #534C64;
+font-size: 32px;
+font-weight: 700;
+line-height: 45px;
+}
+
+
+
 
 
 
@@ -202,33 +270,32 @@ body {
         padding-top: 0px;
     }
 
-    .header-banner-container{
+    .header-banner-container {
         flex-direction: column-reverse;
     }
 
     .header-banner-right img {
-       max-height: 350px;
+        max-height: 350px;
     }
 
     .header-banner-left {
         background-size: contain;
         width: 100%;
-    
+
     }
 
     .header-banner-left-content {
         margin-top: 131px;
         margin-left: 0px;
-        text-align: center;        
+        text-align: center;
     }
 
     .features {
         margin-left: 40px;
-    }  
-
-    .header-banner-button{
-        justify-content: center;
     }
 
+    .header-banner-button {
+        justify-content: center;
+    }
 
 }
