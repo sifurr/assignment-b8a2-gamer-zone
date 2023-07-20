@@ -88,23 +88,31 @@ body {
 }
 
 /* header banner */
+
 .header-banner-container {
     display: flex;
     justify-content: space-around;
-}
-
-.header-banner-left {
+    width: 1440px;
+    margin: 0 auto;
     background-image: url('../images/group-14.png');
     background-repeat: no-repeat;
     background-size: contain;
-    width: 50%;
+    width: 100%;
+}
 
+.header-banner-left {
+    /* background-image: url('../images/group-14.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%; */
+    margin-right: 492px;
 }
 
 
 .header-banner-left-content {
     margin-top: 148px;
-    margin-left: 155px;
+    margin-left: 144px;
+    margin-right: -628px;
 }
 
 .header-banner-left-content h3 {
@@ -167,14 +175,19 @@ body {
 }
 
 .header-banner-right img {
-    height: 590px;
+    height: 679px;
+    margin-left: 113px;
 }
 
 /* main styles */
 /* we are gamers section */
+.gamers{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
 .we-are-gamers {
     display: flex;
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    max-width: 1440px;
+    margin: 0 auto;    
 }
 
 .gamers-left-side img {
@@ -188,7 +201,7 @@ body {
 }
 
 .gamers-right-side {
-    padding-right: 111px;
+    padding-right: 25px;
 }
 
 .gamers-right-side .gamers-right-title {
@@ -237,6 +250,10 @@ body {
 }
 
 /* online games section */
+.online-games{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .online-games-top-content {
     margin-top: 120px;
 }
@@ -269,14 +286,17 @@ body {
 .online-games-cards {
     display: flex;
     justify-content: center;
-    /* gap: 24px; */
+    gap: 24px;
+}
+
+.online-games-card{
+    width: 400px;
+    margin-bottom: 120px;
 }
 
 
-
 .online-games-card img {
-    /* width: 342px; */
-    height: 200px;
+    width: 100%;
 }
 
 .online-games-card p {
@@ -289,17 +309,28 @@ body {
     margin-top: 24px;
 }
 
+
 /* instant play section */
 .instant-play-container {
     display: flex;
     justify-content: space-around;
-    /* gap: 120px; */
-    /* margin-top: 120px; */
+    gap: 120px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
+/* .instant-play-container>*:last-child {
+    align-self: center;
+    padding-left: 630px;
+}
+.instant-play-container>*:first-child {
+    align-self: center;
+    padding-left: 630px;
+} */
+
 .instant-play-left {
-    /* margin-left: 253px; */
-    /* margin-top: 180px; */
+    margin-top: 203px;
+    margin-right: 144px;
 }
 
 
@@ -337,14 +368,15 @@ body {
 
 .small-img {
     position: relative;
-    top: 61px;
-    right: 668px;
-    height: 288px;
-}
+    top: -229px;
+    right: 110px;
+    height: 278px;
+} 
+
 
 /* game's type section */
 .games-types-section {
-    margin-top: 150px;
+    margin-top: -150px;
 }
 
 .first-five-games,
@@ -361,6 +393,8 @@ body {
     align-items: center;
     gap: 16px;
     text-decoration: none;
+    padding: 28px 20px;
+    border: 1px solid #00000000;
 }
 
 .first-five-games {
