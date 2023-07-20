@@ -450,9 +450,9 @@ footer .logo-container .logo-text .amer {
     gap: 60px;
 }
 
-.footer-menu ul>li {
+.footer-menu ul>li,
+.footer-menu-two ul>li {
     list-style: none;
-
 }
 
 .footer-menu ul>li>a,
