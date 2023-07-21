@@ -673,9 +673,142 @@ footer .logo-container .logo-text .amer {
         text-align: center;        
     }
 
+}
+
+
+
+
+/* responsive styles
+/* medium device */
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+
+    header {      
+        margin-top: 103px;
+        margin-right: -100%;
+    }
+
+    .header-top-container,
+    .navbar ul {
+        flex-direction: column;
+
+    }
+
+    .header-top-container {
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.0);
+    }
+
+    .header-banner-container {
+        flex-direction: column-reverse;
+        background-image: none;
+    }
+
+    .header-banner-left{
+        background-image: url('../images/group-14.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+    }
+
+    .header-banner-left-content {
+        margin-left: 30%;      
+    }
+
+    /* we are gamers */
+    .gamers {
+        background: #00000000
+    }
+    .we-are-gamers{
+        flex-direction: column;
+    }
+
+    .gamers-right-side p {
+        text-align: center;
+    }
     
+    .gamers-right-side {
+        margin-left: 50%;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    .gamers-right-side .gamers-right-title {
+        text-align: center;
+    }
+    
+    .gamers-right-description {
+        
+        text-align: center;
+       
+    }
+    
+    .gamers-btn {
+        text-align: center;
+    }
+    
+    .purpose {
+        text-align: center;
+    }
+    
+    .gamers-slogan {
+        text-align: center;
+    }
 
+    /* online games */
+    .online-games-top-content {
+        text-align: center;
+        margin-left: 224px;
+        width: 100%;
+    }
+    .online-games-top-content h3 {
+        font-size: 35px;
+    }
 
+    .online-games-cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 100%;
+    }
 
+    .online-games-card{
+        margin-bottom: 50px;
+    }
 
+    /* instant play section */
+    .instant-play-container{
+        flex-direction: column;
+    }
+
+    .instant-play-left {
+        margin-left: 43%;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .instant-play-left h3 {
+        text-align: right;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+    
+    .instant-play-left h3 span {
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .instant-play-left h3{
+        text-align: center;
+    }
+
+    .instant-play-left h3{
+        font-size: 35px;
+    }
+
+    .instant-play-left p {
+        text-align: center;        
+    }
 }
