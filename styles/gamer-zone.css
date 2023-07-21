@@ -339,6 +339,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     z-index: 10;
+    visibility: hidden;
 
 }
 
@@ -364,6 +365,10 @@ body {
 .img-grp:hover p,
 svg {
     cursor: pointer;
+}
+
+.img-grp:hover .watch-now{
+    visibility: visible;
 }
 
 .img-grp:hover .dark-layer {
